@@ -1,0 +1,91 @@
+/Users/mac/Documents/GitHub/webrtc_AEC3/android_build/build_arm64-v8a/jni/webrtc_aec3_real_jni.cpp:29:24: error: implicit instantiation of undefined template 'std::vector<float>'
+    std::vector<float> render_buffer;
+                       ^
+/Users/mac/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/iosfwd:216:28: note: template is declared here
+class _LIBCPP_TEMPLATE_VIS vector;
+                           ^
+/Users/mac/Documents/GitHub/webrtc_AEC3/android_build/build_arm64-v8a/jni/webrtc_aec3_real_jni.cpp:30:24: error: implicit instantiation of undefined template 'std::vector<float>'
+    std::vector<float> capture_buffer;
+                       ^
+/Users/mac/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/iosfwd:216:28: note: template is declared here
+class _LIBCPP_TEMPLATE_VIS vector;
+                           ^
+2 errors generated.
+make[2]: *** [CMakeFiles/webrtc_aec3_real.dir/jni/webrtc_aec3_real_jni.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/webrtc_aec3_real.dir/all] Error 2
+make: *** [all] Error 2
+❌ arm64-v8a 构建失败
+========== 构建 x86 ==========
+CMake Deprecation Warning at /Users/mac/Library/Android/sdk/ndk/25.2.9519653/build/cmake/android.toolchain.cmake:34 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+
+                         ^
+/Users/mac/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/iosfwd:216:28: note: template is declared here
+class _LIBCPP_TEMPLATE_VIS vector;
+                           ^
+2 errors generated.
+make[2]: *** [CMakeFiles/webrtc_aec3_real.dir/jni/webrtc_aec3_real_jni.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/webrtc_aec3_real.dir/all] Error 2
+make: *** [all] Error 2
+❌ x86 构建失败
+========== 构建 x86_64 ==========
+CMake Deprecation Warning at /Users/mac/Library/Android/sdk/ndk/25.2.9519653/build/cmake/android.toolchain.cmake:34 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /usr/local/share/cmake/Modules/CMakeDetermineSystem.cmake:146 (include)
+  CMakeLists.txt:2 (project)
+
+
+[ 66%] Building CXX object CMakeFiles/webrtc_aec3_real.dir/Users/mac/Documents/GitHub/webrtc_AEC3/api/echo_canceller3_config.cc.o
+[ 66%] Building CXX object CMakeFiles/webrtc_aec3_real.dir/jni/webrtc_aec3_real_jni.cpp.o
+/Users/mac/Documents/GitHub/webrtc_AEC3/android_build/build_x86_64/jni/webrtc_aec3_real_jni.cpp:29:24: error: implicit instantiation of undefined template 'std::vector<float>'
+    std::vector<float> render_buffer;
+                       ^
+/Users/mac/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/iosfwd:216:28: note: template is declared here
+class _LIBCPP_TEMPLATE_VIS vector;
+                           ^
+/Users/mac/Documents/GitHub/webrtc_AEC3/android_build/build_x86_64/jni/webrtc_aec3_real_jni.cpp:30:24: error: implicit instantiation of undefined template 'std::vector<float>'
+    std::vector<float> capture_buffer;
+                       ^
+/Users/mac/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/iosfwd:216:28: note: template is declared here
+class _LIBCPP_TEMPLATE_VIS vector;
+                           ^
+2 errors generated.
+make[2]: *** [CMakeFiles/webrtc_aec3_real.dir/jni/webrtc_aec3_real_jni.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/webrtc_aec3_real.dir/all] Error 2
+make: *** [all] Error 2
+❌ x86_64 构建失败
+========== 创建AAR包 ==========
+编译Java源文件...
+  adding: res/ (stored 0%)
+  adding: AndroidManifest.xml (deflated 38%)
+  adding: classes.jar (deflated 32%)
+  adding: jniLibs/ (stored 0%)
+✅ 真正的WebRTC AEC3 Android AAR构建完成!
+
+构建输出:
+  AAR文件: /Users/mac/Documents/GitHub/webrtc_AEC3/android_output/webrtc-aec3-real.aar
+  AAR文件大小: 4.0K
+
+支持的Android架构:
+  ❌ armeabi-v7a (构建失败)
+  ❌ arm64-v8a (构建失败)
+  ❌ x86 (构建失败)
+  ❌ x86_64 (构建失败)
+
+集成说明:
+1. 将AAR复制到Android项目的libs目录
+2. 在app/build.gradle中添加:
+   implementation fileTree(dir: 'libs', include: ['*.aar'])
+3. 使用WebRTCAEC3Real类进行TTS回声消除
+4. 确保采样率为48kHz，帧大小为480样本

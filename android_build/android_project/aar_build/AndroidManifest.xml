@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.watchfun.webrtc">
+    
+    <!-- TTS回声消除需要录音权限 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    
+    <!-- ace-key-points.txt: Android API level >=27 -->
+    <uses-sdk android:minSdkVersion="27" android:targetSdkVersion="34" />
+    
+    <application android:label="WebRTC AEC3 Real">
+    </application>
+</manifest>

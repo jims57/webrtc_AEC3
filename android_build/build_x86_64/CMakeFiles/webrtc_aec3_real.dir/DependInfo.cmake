@@ -1,0 +1,25 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  )
+
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/mac/Documents/GitHub/webrtc_AEC3/api/echo_canceller3_config.cc" "CMakeFiles/webrtc_aec3_real.dir/Users/mac/Documents/GitHub/webrtc_AEC3/api/echo_canceller3_config.cc.o" "gcc" "CMakeFiles/webrtc_aec3_real.dir/Users/mac/Documents/GitHub/webrtc_AEC3/api/echo_canceller3_config.cc.o.d"
+  "/Users/mac/Documents/GitHub/webrtc_AEC3/android_build/build_x86_64/jni/webrtc_aec3_real_jni.cpp" "CMakeFiles/webrtc_aec3_real.dir/jni/webrtc_aec3_real_jni.cpp.o" "gcc" "CMakeFiles/webrtc_aec3_real.dir/jni/webrtc_aec3_real_jni.cpp.o.d"
+  "" "libwebrtc_aec3_real.so" "gcc" "CMakeFiles/webrtc_aec3_real.dir/link.d"
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

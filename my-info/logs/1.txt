@@ -1,0 +1,169 @@
+ error generated.
+make[2]: *** [CMakeFiles/webrtc_aec3_real.dir/Users/mac/Documents/GitHub/webrtc_AEC3/base/abseil/absl/time/format_benchmark.cc.o] Error 1
+/Users/mac/Documents/GitHub/webrtc_AEC3/android_build/build_x86_64/jni/webrtc_aec3_real_jni.cpp:225:13: error: no type named 'AudioProcessingStats' in namespace 'webrtc'
+    webrtc::AudioProcessingStats stats = processor->apm->GetStatistics();
+    ~~~~~~~~^
+1 error generated.
+make[2]: *** [CMakeFiles/webrtc_aec3_real.dir/Users/mac/Documents/GitHub/webrtc_AEC3/base/abseil/absl/time/duration_benchmark.cc.o] Error 1
+/Users/mac/Documents/GitHub/webrtc_AEC3/base/abseil/absl/strings/numbers_benchmark.cc:21:10: fatal error: 'benchmark/benchmark.h' file not found
+#include "benchmark/benchmark.h"
+         ^~~~~~~~~~~~~~~~~~~~~~~
+/Users/mac/Documents/GitHub/webrtc_AEC3/base/abseil/absl/synchronization/internal/mutex_nonprod.cc:112:1: error: use of undeclared identifier 'MutexImpl'
+MutexImpl::MutexImpl() {
+^
+/Users/mac/Documents/GitHub/webrtc_AEC3/base/abseil/absl/strings/ascii_benchmark.cc:22:10: fatal error: 'benchmark/benchmark.h' file not found
+#include "benchmark/benchmark.h"
+         ^~~~~~~~~~~~~~~~~~~~~~~
+/Users/mac/Documents/GitHub/webrtc_AEC3/base/abseil/absl/synchronization/internal/mutex_nonprod.cc:117:1: error: use of undeclared identifier 'MutexImpl'
+MutexImpl::~MutexImpl() {
+^
+/Users/mac/Documents/GitHub/webrtc_AEC3/base/abseil/absl/synchronization/internal/mutex_nonprod.cc:124:6: error: use of undeclared identifier 'MutexImpl'
+void MutexImpl::Lock() {
+     ^
+1 error generated.
+make[2]: *** [CMakeFiles/webrtc_aec3_real.dir/Users/mac/Documents/GitHub/webrtc_AEC3/base/abseil/absl/strings/ascii_benchmark.cc.o] Error 1
+/Users/mac/Documents/GitHub/webrtc_AEC3/base/abseil/absl/synchronization/internal/mutex_nonprod.cc:129:6: error: use of undeclared identifier 'MutexImpl'
+bool MutexImpl::TryLock() {
+     ^
+/Users/mac/Documents/GitHub/webrtc_AEC3/base/abseil/absl/synchronization/internal/mutex_nonprod.cc:135:6: error: use of undeclared identifier 'MutexImpl'
+void MutexImpl::Unlock() {
+     ^
+/Users/mac/Documents/GitHub/webrtc_AEC3/base/abseil/absl/synchronization/internal/mutex_nonprod.cc:141:1: error: use of undeclared identifier 'CondVarImpl'
+CondVarImpl::CondVarImpl() {
+^
+/Users/mac/Documents/GitHub/webrtc_AEC3/base/abseil/absl/synchronization/internal/mutex_nonprod.cc:146:1: error: use of undeclared identifier 'CondVarImpl'
+CondVarImpl::~CondVarImpl() {
+^
+/Users/mac/Documents/GitHub/webrtc_AEC3/base/abseil/absl/synchronization/internal/mutex_nonprod.cc:150:6: error: use of undeclared identifier 'CondVarImpl'
+void CondVarImpl::Signal() {
+     ^
+/Users/mac/Documents/GitHub/webrtc_AEC3/base/abseil/absl/synchronization/internal/mutex_nonprod.cc:154:6: error: use of undeclared identifier 'CondVarImpl'
+void CondVarImpl::SignalAll() {
+     ^
+7 errors generated.
+make[2]: *** [CMakeFiles/webrtc_aec3_real.dir/jni/webrtc_aec3_real_jni.cpp.o] Error 1
+/Users/mac/Documents/GitHub/webrtc_AEC3/base/abseil/absl/time/internal/cctz/src/cctz_benchmark.cc:23:10: fatal error: 'benchmark/benchmark.h' file not found
+#include "benchmark/benchmark.h"
+         ^~~~~~~~~~~~~~~~~~~~~~~
+/Users/mac/Documents/GitHub/webrtc_AEC3/base/abseil/absl/numeric/int128_benchmark.cc:22:10: fatal error: 'benchmark/benchmark.h' file not found
+#include "benchmark/benchmark.h"
+         ^~~~~~~~~~~~~~~~~~~~~~~
+/Users/mac/Documents/GitHub/webrtc_AEC3/base/abseil/absl/synchronization/internal/mutex_nonprod.cc:158:6: error: use of undeclared identifier 'CondVarImpl'
+void CondVarImpl::Wait(MutexImpl* mu) {
+     ^
+1 error generated.
+make[2]: *** [CMakeFiles/webrtc_aec3_real.dir/Users/mac/Documents/GitHub/webrtc_AEC3/base/abseil/absl/numeric/int128_benchmark.cc.o] Error 1
+/Users/mac/Documents/GitHub/webrtc_AEC3/base/abseil/absl/synchronization/internal/mutex_nonprod.cc:158:24: error: unknown type name 'MutexImpl'
+void CondVarImpl::Wait(MutexImpl* mu) {
+                       ^
+/Users/mac/Documents/GitHub/webrtc_AEC3/base/abseil/absl/synchronization/internal/mutex_nonprod.cc:164:6: error: use of undeclared identifier 'CondVarImpl'
+bool CondVarImpl::WaitWithDeadline(MutexImpl* mu, absl::Time deadline) {
+     ^
+/Users/mac/Documents/GitHub/webrtc_AEC3/base/abseil/absl/synchronization/internal/mutex_nonprod.cc:164:36: error: unknown type name 'MutexImpl'
+bool CondVarImpl::WaitWithDeadline(MutexImpl* mu, absl::Time deadline) {
+                                   ^
+/Users/mac/Documents/GitHub/webrtc_AEC3/base/abseil/absl/synchronization/internal/mutex_nonprod.cc:175:6: error: use of undeclared identifier 'MutexImpl'
+void MutexImpl::Await(const Condition& cond) {
+     ^
+In file included from /Users/mac/Documents/GitHub/webrtc_AEC3/base/rtc_base/logging.cc:45:
+/Users/mac/Documents/GitHub/webrtc_AEC3/android_build/build_x86_64/../../base/rtc_base/critical_section.h:30:9: warning: build with WEBRTC_POSIX [-W#pragma-messages]
+#pragma message("build with WEBRTC_POSIX")
+        ^
+/Users/mac/Documents/GitHub/webrtc_AEC3/base/abseil/absl/synchronization/internal/mutex_nonprod.cc:183:6: error: use of undeclared identifier 'MutexImpl'
+bool MutexImpl::AwaitWithDeadline(const Condition& cond, absl::Time deadline) {
+     ^
+/Users/mac/Documents/GitHub/webrtc_AEC3/base/abseil/absl/synchronization/internal/mutex_nonprod.cc:194:8: error: redefinition of 'Mutex'
+Mutex::Mutex() {}
+       ^
+/Users/mac/Documents/GitHub/webrtc_AEC3/android_build/build_x86_64/../../base/abseil/absl/synchronization/mutex.h:907:15: note: previous definition is here
+inline Mutex::Mutex() : mu_(0) {
+              ^
+/Users/mac/Documents/GitHub/webrtc_AEC3/base/abseil/absl/synchronization/internal/mutex_nonprod.cc:198:22: error: use of undeclared identifier 'impl'
+void Mutex::Lock() { impl()->Lock(); }
+                     ^
+/Users/mac/Documents/GitHub/webrtc_AEC3/base/abseil/absl/synchronization/internal/mutex_nonprod.cc:200:24: error: use of undeclared identifier 'impl'
+void Mutex::Unlock() { impl()->Unlock(); }
+                       ^
+1 error generated.
+make[2]: *** [CMakeFiles/webrtc_aec3_real.dir/Users/mac/Documents/GitHub/webrtc_AEC3/base/abseil/absl/time/internal/cctz/src/cctz_benchmark.cc.o] Error 1
+/Users/mac/Documents/GitHub/webrtc_AEC3/base/abseil/absl/synchronization/internal/mutex_nonprod.cc:202:32: error: use of undeclared identifier 'impl'
+bool Mutex::TryLock() { return impl()->TryLock(); }
+                               ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+make[2]: *** [CMakeFiles/webrtc_aec3_real.dir/Users/mac/Documents/GitHub/webrtc_AEC3/base/abseil/absl/synchronization/internal/mutex_nonprod.cc.o] Error 1
+/Users/mac/Documents/GitHub/webrtc_AEC3/base/abseil/absl/strings/str_split_benchmark.cc:23:10: fatal error: 'benchmark/benchmark.h' file not found
+#include "benchmark/benchmark.h"
+         ^~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+make[2]: *** [CMakeFiles/webrtc_aec3_real.dir/Users/mac/Documents/GitHub/webrtc_AEC3/base/abseil/absl/strings/str_split_benchmark.cc.o] Error 1
+/Users/mac/Documents/GitHub/webrtc_AEC3/base/abseil/absl/synchronization/mutex_benchmark.cc:24:10: fatal error: 'benchmark/benchmark.h' file not found
+#include "benchmark/benchmark.h"
+         ^~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+make[2]: *** [CMakeFiles/webrtc_aec3_real.dir/Users/mac/Documents/GitHub/webrtc_AEC3/base/abseil/absl/synchronization/mutex_benchmark.cc.o] Error 1
+/Users/mac/Documents/GitHub/webrtc_AEC3/base/abseil/absl/strings/string_view_benchmark.cc:25:10: fatal error: 'benchmark/benchmark.h' file not found
+#include "benchmark/benchmark.h"
+         ^~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+/Users/mac/Documents/GitHub/webrtc_AEC3/base/abseil/absl/time/civil_time_benchmark.cc:21:10: fatal error: 'benchmark/benchmark.h' file not found
+#include "benchmark/benchmark.h"
+         ^~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+make[2]: *** [CMakeFiles/webrtc_aec3_real.dir/Users/mac/Documents/GitHub/webrtc_AEC3/base/abseil/absl/time/civil_time_benchmark.cc.o] Error 1
+/Users/mac/Documents/GitHub/webrtc_AEC3/base/abseil/absl/strings/str_cat_benchmark.cc:20:10: fatal error: 'benchmark/benchmark.h' file not found
+#include "benchmark/benchmark.h"
+         ^~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+make[2]: *** [CMakeFiles/webrtc_aec3_real.dir/Users/mac/Documents/GitHub/webrtc_AEC3/base/abseil/absl/container/inlined_vector_benchmark.cc.o] Error 1
+/Users/mac/Documents/GitHub/webrtc_AEC3/base/abseil/absl/strings/str_join_benchmark.cc:22:10: fatal error: 'benchmark/benchmark.h' file not found
+#include "benchmark/benchmark.h"
+         ^~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+make[2]: *** [CMakeFiles/webrtc_aec3_real.dir/Users/mac/Documents/GitHub/webrtc_AEC3/base/abseil/absl/strings/str_join_benchmark.cc.o] Error 1
+1 error generated.
+make[2]: *** [CMakeFiles/webrtc_aec3_real.dir/Users/mac/Documents/GitHub/webrtc_AEC3/base/abseil/absl/strings/str_cat_benchmark.cc.o] Error 1
+/Users/mac/Documents/GitHub/webrtc_AEC3/base/abseil/absl/strings/escaping_benchmark.cc:21:10: fatal error: 'benchmark/benchmark.h' file not found
+#include "benchmark/benchmark.h"
+         ^~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+make[2]: *** [CMakeFiles/webrtc_aec3_real.dir/Users/mac/Documents/GitHub/webrtc_AEC3/base/abseil/absl/strings/escaping_benchmark.cc.o] Error 1
+1 error generated.
+1 warning generated.
+make[2]: *** [CMakeFiles/webrtc_aec3_real.dir/Users/mac/Documents/GitHub/webrtc_AEC3/base/abseil/absl/strings/numbers_benchmark.cc.o] Error 1
+1 error generated.
+make[2]: *** [CMakeFiles/webrtc_aec3_real.dir/Users/mac/Documents/GitHub/webrtc_AEC3/base/abseil/absl/strings/string_view_benchmark.cc.o] Error 1
+/Users/mac/Documents/GitHub/webrtc_AEC3/base/abseil/absl/random/benchmarks.cc:42:10: fatal error: 'benchmark/benchmark.h' file not found
+#include "benchmark/benchmark.h"
+         ^~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+make[2]: *** [CMakeFiles/webrtc_aec3_real.dir/Users/mac/Documents/GitHub/webrtc_AEC3/base/abseil/absl/random/benchmarks.cc.o] Error 1
+1 warning generated.
+make[1]: *** [CMakeFiles/webrtc_aec3_real.dir/all] Error 2
+make: *** [all] Error 2
+❌ x86_64 构建失败
+========== 创建AAR包 ==========
+编译Java源文件...
+  adding: res/ (stored 0%)
+  adding: AndroidManifest.xml (deflated 38%)
+  adding: classes.jar (deflated 31%)
+  adding: jniLibs/ (stored 0%)
+✅ 真正的WebRTC AEC3 Android AAR构建完成!
+
+构建输出:
+  AAR文件: /Users/mac/Documents/GitHub/webrtc_AEC3/android_output/webrtc-aec3-real.aar
+  AAR文件大小: 4.0K
+
+支持的Android架构:
+  ❌ armeabi-v7a (构建失败)
+  ❌ arm64-v8a (构建失败)
+  ❌ x86 (构建失败)
+  ❌ x86_64 (构建失败)
+
+集成说明:
+1. 将AAR复制到Android项目的libs目录
+2. 在app/build.gradle中添加:
+   implementation fileTree(dir: 'libs', include: ['*.aar'])
+3. 使用WebRTCAEC3Real类进行TTS回声消除
+4. 确保采样率为48kHz，帧大小为480样本
+📚 集成指南已创建: /Users/mac/Documents/GitHub/webrtc_AEC3/android_output/INTEGRATION_GUIDE.md
