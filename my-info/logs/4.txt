@@ -1,0 +1,42 @@
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/mac/Documents/GitHub/webrtc_AEC3/android_build/build_x86_64
+./build_android_aar.bash: line 487: nproc: command not found
+[ 66%] Building CXX object CMakeFiles/webrtc_aec3_real.dir/jni/webrtc_aec3_real_jni.cpp.o
+[ 66%] Building CXX object CMakeFiles/webrtc_aec3_real.dir/Users/mac/Documents/GitHub/webrtc_AEC3/api/echo_canceller3_config.cc.o
+[100%] Linking CXX shared library libwebrtc_aec3_real.so
+[100%] Built target webrtc_aec3_real
+✅ x86_64 构建成功
+========== 创建AAR包 ==========
+编译Java源文件...
+  adding: res/ (stored 0%)
+  adding: AndroidManifest.xml (deflated 38%)
+  adding: classes.jar (deflated 32%)
+  adding: jniLibs/ (stored 0%)
+  adding: jniLibs/armeabi-v7a/ (stored 0%)
+  adding: jniLibs/armeabi-v7a/libwebrtc_aec3_real.so (deflated 66%)
+  adding: jniLibs/x86/ (stored 0%)
+  adding: jniLibs/x86/libwebrtc_aec3_real.so (deflated 64%)
+  adding: jniLibs/arm64-v8a/ (stored 0%)
+  adding: jniLibs/arm64-v8a/libwebrtc_aec3_real.so (deflated 69%)
+  adding: jniLibs/x86_64/ (stored 0%)
+  adding: jniLibs/x86_64/libwebrtc_aec3_real.so (deflated 66%)
+✅ 真正的WebRTC AEC3 Android AAR构建完成!
+
+构建输出:
+  AAR文件: /Users/mac/Documents/GitHub/webrtc_AEC3/android_output/webrtc-aec3-real.aar
+  AAR文件大小: 292K
+
+支持的Android架构:
+  ✅ armeabi-v7a
+  ✅ arm64-v8a
+  ✅ x86
+  ✅ x86_64
+
+集成说明:
+1. 将AAR复制到Android项目的libs目录
+2. 在app/build.gradle中添加:
+   implementation fileTree(dir: 'libs', include: ['*.aar'])
+3. 使用WebRTCAEC3Real类进行TTS回声消除
+4. 确保采样率为48kHz，帧大小为480样本
+📚 集成指南已创建: /Users/mac/Documents/GitHub/webrtc_AEC3/android_output/INTEGRATION_GUIDE.md
+(base) mac@jims57 my-info % 
