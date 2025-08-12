@@ -493,7 +493,7 @@ EOF
           -DCMAKE_BUILD_TYPE=Release \
           -DANDROID_ABI="$CMAKE_ANDROID_ARCH_ABI" \
           -DANDROID_PLATFORM=android-27 \
-          -DANDROID_STL=c++_shared \
+          -DANDROID_STL=c++_static \
           -DCMAKE_ANDROID_NDK="$ANDROID_NDK_HOME" \
           .
 
