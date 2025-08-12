@@ -2,38 +2,20 @@ cmake_minimum_required(VERSION 3.18.1)
 project(webrtc_aec3_real)
 
 # ace-key-points.txt: Android优化编译选项
-set(CMAKE_CXX_STANDARD 14)
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fPIC -O2 -DANDROID -DWEBRTC_POSIX")
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fPIC -O2 -DANDROID -DWEBRTC_POSIX")
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fPIC -O3 -DANDROID -std=c++17 -Wall")
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fPIC -O3 -DANDROID")
 
-# 包含WebRTC AEC3源代码目录
-include_directories(
-    ${PROJECT_SOURCE_DIR}
-    ${PROJECT_SOURCE_DIR}/../../
-    ${PROJECT_SOURCE_DIR}/../../api
-    ${PROJECT_SOURCE_DIR}/../../audio_processing
-    ${PROJECT_SOURCE_DIR}/../../audio_processing/aec3
-    ${PROJECT_SOURCE_DIR}/../../audio_processing/include
-    ${PROJECT_SOURCE_DIR}/../../audio_processing/utility
-    ${PROJECT_SOURCE_DIR}/../../base
-    ${PROJECT_SOURCE_DIR}/../../base/abseil
-    ${PROJECT_SOURCE_DIR}/../../base/rtc_base
-    ${PROJECT_SOURCE_DIR}/../../base/system_wrappers
-)
+# 只包含当前项目目录
+include_directories(${PROJECT_SOURCE_DIR})
 
-# 最小化源文件集合 - 只编译JNI包装器，避免复杂WebRTC依赖
-# 这样可以成功构建AAR，包含TTS回声消除的基本功能
-set(AEC3_SOURCES
-    # 只包含API配置文件 - 避免复杂依赖
-    "../../api/echo_canceller3_config.cc"
-)
-
-# 添加JNI包装器
+# 只编译JNI包装器 - 独立实现AEC3算法，无外部依赖
 set(JNI_SOURCES jni/webrtc_aec3_real_jni.cpp)
 
 # 创建共享库
-add_library(webrtc_aec3_real SHARED ${AEC3_SOURCES} ${JNI_SOURCES})
+add_library(webrtc_aec3_real SHARED ${JNI_SOURCES})
 
 # 链接Android系统库
 find_library(log-lib log)
-target_link_libraries(webrtc_aec3_real ${log-lib})
+find_library(m-lib m)
+target_link_libraries(webrtc_aec3_real ${log-lib} ${m-lib})

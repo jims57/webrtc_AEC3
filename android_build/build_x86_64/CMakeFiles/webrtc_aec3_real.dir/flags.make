@@ -4,7 +4,7 @@
 # compile CXX with /Users/mac/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++
 CXX_DEFINES = -Dwebrtc_aec3_real_EXPORTS
 
-CXX_INCLUDES = -I/Users/mac/Documents/GitHub/webrtc_AEC3/android_build/build_x86_64 -I/Users/mac/Documents/GitHub/webrtc_AEC3/android_build/build_x86_64/../.. -I/Users/mac/Documents/GitHub/webrtc_AEC3/android_build/build_x86_64/../../api -I/Users/mac/Documents/GitHub/webrtc_AEC3/android_build/build_x86_64/../../audio_processing -I/Users/mac/Documents/GitHub/webrtc_AEC3/android_build/build_x86_64/../../audio_processing/aec3 -I/Users/mac/Documents/GitHub/webrtc_AEC3/android_build/build_x86_64/../../audio_processing/include -I/Users/mac/Documents/GitHub/webrtc_AEC3/android_build/build_x86_64/../../audio_processing/utility -I/Users/mac/Documents/GitHub/webrtc_AEC3/android_build/build_x86_64/../../base -I/Users/mac/Documents/GitHub/webrtc_AEC3/android_build/build_x86_64/../../base/abseil -I/Users/mac/Documents/GitHub/webrtc_AEC3/android_build/build_x86_64/../../base/rtc_base -I/Users/mac/Documents/GitHub/webrtc_AEC3/android_build/build_x86_64/../../base/system_wrappers
+CXX_INCLUDES = -I/Users/mac/Documents/GitHub/webrtc_AEC3/android_build/build_x86_64
 
-CXX_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIC -O2 -DANDROID -DWEBRTC_POSIX -O3 -DNDEBUG  -std=gnu++14 -fPIC
+CXX_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIC -O3 -DANDROID -std=c++17 -Wall -O3 -DNDEBUG  -std=gnu++17 -fPIC
 

@@ -72,24 +72,10 @@ include CMakeFiles/webrtc_aec3_real.dir/flags.make
 CMakeFiles/webrtc_aec3_real.dir/codegen:
 .PHONY : CMakeFiles/webrtc_aec3_real.dir/codegen
 
-CMakeFiles/webrtc_aec3_real.dir/Users/mac/Documents/GitHub/webrtc_AEC3/api/echo_canceller3_config.cc.o: CMakeFiles/webrtc_aec3_real.dir/flags.make
-CMakeFiles/webrtc_aec3_real.dir/Users/mac/Documents/GitHub/webrtc_AEC3/api/echo_canceller3_config.cc.o: /Users/mac/Documents/GitHub/webrtc_AEC3/api/echo_canceller3_config.cc
-CMakeFiles/webrtc_aec3_real.dir/Users/mac/Documents/GitHub/webrtc_AEC3/api/echo_canceller3_config.cc.o: CMakeFiles/webrtc_aec3_real.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mac/Documents/GitHub/webrtc_AEC3/android_build/build_x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/webrtc_aec3_real.dir/Users/mac/Documents/GitHub/webrtc_AEC3/api/echo_canceller3_config.cc.o"
-	/Users/mac/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=i686-none-linux-android27 --sysroot=/Users/mac/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/webrtc_aec3_real.dir/Users/mac/Documents/GitHub/webrtc_AEC3/api/echo_canceller3_config.cc.o -MF CMakeFiles/webrtc_aec3_real.dir/Users/mac/Documents/GitHub/webrtc_AEC3/api/echo_canceller3_config.cc.o.d -o CMakeFiles/webrtc_aec3_real.dir/Users/mac/Documents/GitHub/webrtc_AEC3/api/echo_canceller3_config.cc.o -c /Users/mac/Documents/GitHub/webrtc_AEC3/api/echo_canceller3_config.cc
-
-CMakeFiles/webrtc_aec3_real.dir/Users/mac/Documents/GitHub/webrtc_AEC3/api/echo_canceller3_config.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/webrtc_aec3_real.dir/Users/mac/Documents/GitHub/webrtc_AEC3/api/echo_canceller3_config.cc.i"
-	/Users/mac/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=i686-none-linux-android27 --sysroot=/Users/mac/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mac/Documents/GitHub/webrtc_AEC3/api/echo_canceller3_config.cc > CMakeFiles/webrtc_aec3_real.dir/Users/mac/Documents/GitHub/webrtc_AEC3/api/echo_canceller3_config.cc.i
-
-CMakeFiles/webrtc_aec3_real.dir/Users/mac/Documents/GitHub/webrtc_AEC3/api/echo_canceller3_config.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/webrtc_aec3_real.dir/Users/mac/Documents/GitHub/webrtc_AEC3/api/echo_canceller3_config.cc.s"
-	/Users/mac/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=i686-none-linux-android27 --sysroot=/Users/mac/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mac/Documents/GitHub/webrtc_AEC3/api/echo_canceller3_config.cc -o CMakeFiles/webrtc_aec3_real.dir/Users/mac/Documents/GitHub/webrtc_AEC3/api/echo_canceller3_config.cc.s
-
 CMakeFiles/webrtc_aec3_real.dir/jni/webrtc_aec3_real_jni.cpp.o: CMakeFiles/webrtc_aec3_real.dir/flags.make
 CMakeFiles/webrtc_aec3_real.dir/jni/webrtc_aec3_real_jni.cpp.o: jni/webrtc_aec3_real_jni.cpp
 CMakeFiles/webrtc_aec3_real.dir/jni/webrtc_aec3_real_jni.cpp.o: CMakeFiles/webrtc_aec3_real.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mac/Documents/GitHub/webrtc_AEC3/android_build/build_x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/webrtc_aec3_real.dir/jni/webrtc_aec3_real_jni.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mac/Documents/GitHub/webrtc_AEC3/android_build/build_x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/webrtc_aec3_real.dir/jni/webrtc_aec3_real_jni.cpp.o"
 	/Users/mac/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=i686-none-linux-android27 --sysroot=/Users/mac/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/webrtc_aec3_real.dir/jni/webrtc_aec3_real_jni.cpp.o -MF CMakeFiles/webrtc_aec3_real.dir/jni/webrtc_aec3_real_jni.cpp.o.d -o CMakeFiles/webrtc_aec3_real.dir/jni/webrtc_aec3_real_jni.cpp.o -c /Users/mac/Documents/GitHub/webrtc_AEC3/android_build/build_x86/jni/webrtc_aec3_real_jni.cpp
 
 CMakeFiles/webrtc_aec3_real.dir/jni/webrtc_aec3_real_jni.cpp.i: cmake_force
@@ -102,19 +88,18 @@ CMakeFiles/webrtc_aec3_real.dir/jni/webrtc_aec3_real_jni.cpp.s: cmake_force
 
 # Object files for target webrtc_aec3_real
 webrtc_aec3_real_OBJECTS = \
-"CMakeFiles/webrtc_aec3_real.dir/Users/mac/Documents/GitHub/webrtc_AEC3/api/echo_canceller3_config.cc.o" \
 "CMakeFiles/webrtc_aec3_real.dir/jni/webrtc_aec3_real_jni.cpp.o"
 
 # External object files for target webrtc_aec3_real
 webrtc_aec3_real_EXTERNAL_OBJECTS =
 
-libwebrtc_aec3_real.so: CMakeFiles/webrtc_aec3_real.dir/Users/mac/Documents/GitHub/webrtc_AEC3/api/echo_canceller3_config.cc.o
 libwebrtc_aec3_real.so: CMakeFiles/webrtc_aec3_real.dir/jni/webrtc_aec3_real_jni.cpp.o
 libwebrtc_aec3_real.so: CMakeFiles/webrtc_aec3_real.dir/build.make
 libwebrtc_aec3_real.so: CMakeFiles/webrtc_aec3_real.dir/compiler_depend.ts
 libwebrtc_aec3_real.so: /Users/mac/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/27/liblog.so
+libwebrtc_aec3_real.so: /Users/mac/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/27/libm.so
 libwebrtc_aec3_real.so: CMakeFiles/webrtc_aec3_real.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/mac/Documents/GitHub/webrtc_AEC3/android_build/build_x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libwebrtc_aec3_real.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/mac/Documents/GitHub/webrtc_AEC3/android_build/build_x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libwebrtc_aec3_real.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/webrtc_aec3_real.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

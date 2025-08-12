@@ -129,30 +129,6 @@ webrtc_aec3_real/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/webrtc_aec3_real.dir/build.make CMakeFiles/webrtc_aec3_real.dir/build
 .PHONY : webrtc_aec3_real/fast
 
-Users/mac/Documents/GitHub/webrtc_AEC3/api/echo_canceller3_config.o: Users/mac/Documents/GitHub/webrtc_AEC3/api/echo_canceller3_config.cc.o
-.PHONY : Users/mac/Documents/GitHub/webrtc_AEC3/api/echo_canceller3_config.o
-
-# target to build an object file
-Users/mac/Documents/GitHub/webrtc_AEC3/api/echo_canceller3_config.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webrtc_aec3_real.dir/build.make CMakeFiles/webrtc_aec3_real.dir/Users/mac/Documents/GitHub/webrtc_AEC3/api/echo_canceller3_config.cc.o
-.PHONY : Users/mac/Documents/GitHub/webrtc_AEC3/api/echo_canceller3_config.cc.o
-
-Users/mac/Documents/GitHub/webrtc_AEC3/api/echo_canceller3_config.i: Users/mac/Documents/GitHub/webrtc_AEC3/api/echo_canceller3_config.cc.i
-.PHONY : Users/mac/Documents/GitHub/webrtc_AEC3/api/echo_canceller3_config.i
-
-# target to preprocess a source file
-Users/mac/Documents/GitHub/webrtc_AEC3/api/echo_canceller3_config.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webrtc_aec3_real.dir/build.make CMakeFiles/webrtc_aec3_real.dir/Users/mac/Documents/GitHub/webrtc_AEC3/api/echo_canceller3_config.cc.i
-.PHONY : Users/mac/Documents/GitHub/webrtc_AEC3/api/echo_canceller3_config.cc.i
-
-Users/mac/Documents/GitHub/webrtc_AEC3/api/echo_canceller3_config.s: Users/mac/Documents/GitHub/webrtc_AEC3/api/echo_canceller3_config.cc.s
-.PHONY : Users/mac/Documents/GitHub/webrtc_AEC3/api/echo_canceller3_config.s
-
-# target to generate assembly for a file
-Users/mac/Documents/GitHub/webrtc_AEC3/api/echo_canceller3_config.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webrtc_aec3_real.dir/build.make CMakeFiles/webrtc_aec3_real.dir/Users/mac/Documents/GitHub/webrtc_AEC3/api/echo_canceller3_config.cc.s
-.PHONY : Users/mac/Documents/GitHub/webrtc_AEC3/api/echo_canceller3_config.cc.s
-
 jni/webrtc_aec3_real_jni.o: jni/webrtc_aec3_real_jni.cpp.o
 .PHONY : jni/webrtc_aec3_real_jni.o
 
@@ -186,9 +162,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... webrtc_aec3_real"
-	@echo "... Users/mac/Documents/GitHub/webrtc_AEC3/api/echo_canceller3_config.o"
-	@echo "... Users/mac/Documents/GitHub/webrtc_AEC3/api/echo_canceller3_config.i"
-	@echo "... Users/mac/Documents/GitHub/webrtc_AEC3/api/echo_canceller3_config.s"
 	@echo "... jni/webrtc_aec3_real_jni.o"
 	@echo "... jni/webrtc_aec3_real_jni.i"
 	@echo "... jni/webrtc_aec3_real_jni.s"

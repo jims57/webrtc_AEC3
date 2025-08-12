@@ -128,40 +128,4 @@ CMakeFiles/webrtc_aec3_real.dir/jni/webrtc_aec3_real_jni.cpp.o: \
   /Users/mac/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/algorithm \
   /Users/mac/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/functional \
   /Users/mac/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/__split_buffer \
-  /Users/mac/Documents/GitHub/webrtc_AEC3/android_build/build_x86/../../api/echo_canceller3_factory.h \
-  /Users/mac/Documents/GitHub/webrtc_AEC3/android_build/build_x86/../../api/echo_canceller3_config.h \
-  /Users/mac/Documents/GitHub/webrtc_AEC3/android_build/build_x86/../../base/rtc_base/system/rtc_export.h \
-  /Users/mac/Documents/GitHub/webrtc_AEC3/android_build/build_x86/../../api/echo_control.h \
-  /Users/mac/Documents/GitHub/webrtc_AEC3/android_build/build_x86/../../base/rtc_base/checks.h \
-  /Users/mac/Documents/GitHub/webrtc_AEC3/android_build/build_x86/../../build_config.h \
-  /Users/mac/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/string \
-  /Users/mac/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/string_view \
-  /Users/mac/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/__string \
-  /Users/mac/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/cstdio \
-  /Users/mac/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/cwchar \
-  /Users/mac/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/cwctype \
-  /Users/mac/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/cctype \
-  /Users/mac/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/ctype.h \
-  /Users/mac/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/ctype.h \
-  /Users/mac/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/bits/ctype_inlines.h \
-  /Users/mac/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/wctype.h \
-  /Users/mac/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include/wctype.h \
-  /Users/mac/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/wctype.h \
-  /Users/mac/Documents/GitHub/webrtc_AEC3/android_build/build_x86/../../base/abseil/absl/meta/type_traits.h \
-  /Users/mac/Documents/GitHub/webrtc_AEC3/android_build/build_x86/../../base/abseil/absl/base/config.h \
-  /Users/mac/Documents/GitHub/webrtc_AEC3/android_build/build_x86/../../base/abseil/absl/base/options.h \
-  /Users/mac/Documents/GitHub/webrtc_AEC3/android_build/build_x86/../../base/abseil/absl/base/policy_checks.h \
-  /Users/mac/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/any \
-  /Users/mac/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/optional \
-  /Users/mac/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/variant \
-  /Users/mac/Documents/GitHub/webrtc_AEC3/android_build/build_x86/../../base/abseil/absl/strings/string_view.h \
-  /Users/mac/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/cassert \
-  /Users/mac/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/assert.h \
-  /Users/mac/Documents/GitHub/webrtc_AEC3/android_build/build_x86/../../base/abseil/absl/base/internal/throw_delegate.h \
-  /Users/mac/Documents/GitHub/webrtc_AEC3/android_build/build_x86/../../base/abseil/absl/base/macros.h \
-  /Users/mac/Documents/GitHub/webrtc_AEC3/android_build/build_x86/../../base/abseil/absl/base/attributes.h \
-  /Users/mac/Documents/GitHub/webrtc_AEC3/android_build/build_x86/../../base/abseil/absl/base/optimization.h \
-  /Users/mac/Documents/GitHub/webrtc_AEC3/android_build/build_x86/../../base/abseil/absl/base/port.h \
-  /Users/mac/Documents/GitHub/webrtc_AEC3/android_build/build_x86/../../base/rtc_base/numerics/safe_compare.h \
-  /Users/mac/Documents/GitHub/webrtc_AEC3/android_build/build_x86/../../base/rtc_base/type_traits.h \
-  /Users/mac/Documents/GitHub/webrtc_AEC3/android_build/build_x86/../../base/rtc_base/system/inline.h
+  /Users/mac/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/cmath

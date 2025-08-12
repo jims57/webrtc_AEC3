@@ -85,12 +85,12 @@ clean: CMakeFiles/webrtc_aec3_real.dir/clean
 CMakeFiles/webrtc_aec3_real.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/webrtc_aec3_real.dir/build.make CMakeFiles/webrtc_aec3_real.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/webrtc_aec3_real.dir/build.make CMakeFiles/webrtc_aec3_real.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/mac/Documents/GitHub/webrtc_AEC3/android_build/build_x86_64/CMakeFiles --progress-num=1,2,3 "Built target webrtc_aec3_real"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/mac/Documents/GitHub/webrtc_AEC3/android_build/build_x86_64/CMakeFiles --progress-num=1,2 "Built target webrtc_aec3_real"
 .PHONY : CMakeFiles/webrtc_aec3_real.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/webrtc_aec3_real.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Documents/GitHub/webrtc_AEC3/android_build/build_x86_64/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Documents/GitHub/webrtc_AEC3/android_build/build_x86_64/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/webrtc_aec3_real.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Documents/GitHub/webrtc_AEC3/android_build/build_x86_64/CMakeFiles 0
 .PHONY : CMakeFiles/webrtc_aec3_real.dir/rule
@@ -102,7 +102,7 @@ webrtc_aec3_real: CMakeFiles/webrtc_aec3_real.dir/rule
 # codegen rule for target.
 CMakeFiles/webrtc_aec3_real.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/webrtc_aec3_real.dir/build.make CMakeFiles/webrtc_aec3_real.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/mac/Documents/GitHub/webrtc_AEC3/android_build/build_x86_64/CMakeFiles --progress-num=1,2,3 "Finished codegen for target webrtc_aec3_real"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/mac/Documents/GitHub/webrtc_AEC3/android_build/build_x86_64/CMakeFiles --progress-num=1,2 "Finished codegen for target webrtc_aec3_real"
 .PHONY : CMakeFiles/webrtc_aec3_real.dir/codegen
 
 # clean rule for target.
